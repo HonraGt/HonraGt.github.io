@@ -1,55 +1,182 @@
 <html>
-
 <head>
-    <title>GameCenter Helper BOT</title>
+<title>GameCenterBot Help</title>
+<meta charset="utf-8">
+<style type="text/css">
+		
+		body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #2e2e2e;
+}
+
+#area-cabecalho {
+	background-color: #02a8ad;
+	padding: 15px;
+	text-align: center;
+}
+
+#area-logo, #area-menu {
+	padding: 10px;
+}
+
+#area-principal {
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#area-postagens {
+	width: 550px;
+	float: left;
+}
+
+#area-lateral {
+	width: 360px;
+	float: right;
+}
+
+.postagem{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: #bfbfbf;
+}
+
+.conteudo-lateral {
+	background: #bfbfbf;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.postagem-lateral {
+	font-size: 0.8em;
+	padding: 5px;
+	border-bottom: 1px dotted #bfbfbf;
+}
+
+#rodape {
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #CCC;
+	width: 520px;
+}
+
+a {
+	text-decoration: none;	
+}
+
+a:link, a:visited {
+	color: #001975;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+	color: #000000;
+	padding: 8px 12px;
+}
+
+#area-cabecalho a:hover {
+	color: #001975;
+	background: #7a7a7a;
+	text-decoration: none;
+}
+
+h1 {
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+
+h2 {
+	color: #000000;
+}
+
+h3 {
+	color: #000000;
+	background: #787878;
+	padding: 5px;
+}
+
+.branco{
+	color: white;
+}
+
+.preto{
+	color: black;
+}
+
+.data-postagem {
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+	</style>
 </head>
+<body>
+<div id="area-cabecalho">
+<div id="area-logo">
+<h1><span class="preto">GameCenter</span> BOT</h1>
+</div>
+<div id="area-menu">
+<a href="index.html">Home</a>
+<a href="comandos.html">Comandos</a>
+<a href="https://discord.com/oauth2/authorize?client_id=717412674941616138&scope=bot&permissions=8">Adicionar</a>
+</div>
+</div>
+<div id="area-principal">
+<div id="area-postagens">
 
-<body bgcolor="gray">
-    <h3 align="center"> <img src="https://i.imgur.com/mzo48lW.png">
-        <hr bgcolor="black" />
-        <p>Olá, meu nome é Nathan, Sou o criador do Game Center Helper Bot e você deve estar aqui para ler sobre os comandos e funcionalidades do bot
-            <p/>
-            <a href="https://discord.com/oauth2/authorize?client_id=717412674941616138&scope=bot&permissions=8
-" target="_blank"><img border="0" src="https://i.imgur.com/KZM5CMf.gif" alt="Adicione o GameCenter Helper" /></a>
-            <a href="https://discord.gg/Q7mzrTX
-" target="_blank"><img border="0" src="https://i.imgur.com/DGzHkql.gif" alt="Entre no servidor" /></a>
-            </h1>
-            <h4>Comandos do BOT</h4>
-            <ul type="circle">
-                <li><b>Comandos de Moderação:</b></li>
-                <ul type="square">
-                    <li> #clear 2 a 99 - Limpa de 2 a 99 mensagens;</li>
-                    <li> #reactiontext - Adiciona um texto para colocar reaction rule;</li>
-                </ul>
-                <li><b>Comandos Gerais:</b></li>
-                <ul type="square">
-                    <li>#inviteme - Mostra o convite do bot para você chama-lo para o seu servidor;{algumas funções são restritas ao servidor principal}</li>
-                    <li>#uptime - Mostra o tempo online do bot (cada reset recomeça essa contagem);</li>
-                    <li>#help - Mostra os comandos;</li>
-                    <li>#say
-                        <texto> - Faz o bot falar oque você escreveu na mensagem;</li>
-                    <li>#avatar - Exibe o avatar de quem executou o comando;</li>
-                    <li>#emoji
-                        <nome do emoji> - Mostra o emoji que você citou.</li>
-                </ul>
-                <li><b>Comandos de Diversão:</b></li>
-                <ul type="square">
-                    <li>#flipcoin - joga uma moeda;</li>
-                    <li>#roll6 - joga um dado de 6 lados;</li>
-                    <li>#roll20 - Joga um dado de 20 lados;</li>
-                    <li>#roll100 - Joga um dado de 100 lados;</li>
-                    <li>#metralhar
-                        <@user> - Metralha o usuario mensionado.</li>
-                </ul>
-                <li><b>Comandos de Economia:</b></li>
-                <ul type="square">
-                    <li>#honras - Mostra suas Honras;</li>
-                    <li>#trabalhar - Ganha de 1 a 20 Honras (utilizavel 1 vez por hora);</li>
-                </ul>
-            </ul>
-            <p>Para gastar suas honras olhe a loja do servidor principal. Caso ja esteja no servidor clique <a href="https://discord.com/channels/661163930101612545/710936062905548871">aqui</a>. Caso não esteja no servidor ainda clique <a href="https://discord.gg/Q7mzrTX">aqui</a>.
-                <p/>
+<div class="postagem">
+<h2>Sobre GameCenter Bot</h2>
+<span class="data-postagem"></span>
+<img width="500px" src="https://i.imgur.com/t15cEcg.png">
+<p>
+Um bot criado por HonraGT#3672 usando javaScript.<br>
+GameCenter Helper foi desenvolvido pra diversos fins, como jogos e moderação do servidor GameCenter. Seu prefixo é # e digite #help sempre que precisar de ajuda!
+</p>
+</div>
 
+<div class="postagem">
+<h2>Novidades</h2>
+<span class="data-postagem">30 de Novembro de 2020</span>
+<img width="500px" src="https://i.imgur.com/RLX6bap.png">
+<p>
+Sistema Simples de Economia adicionado #honras(dinheiro do Bot) #trabalhar par ganhar dinheiro. Mais comando e funções novas em breve.
+</p>
+<hr/>
+<p>
+Caso queira reportar algum bug no bot, entre em contato! Cada bug reportado deixa o bot melhor, até que ele fique pronto!
+</p>
+</div>
+</div>
+<div id="area-lateral">
+<div class="conteudo-lateral">
+<h3>Contato</h3>
+<div class="postagem-lateral">
+<p>Contato do Desenvolvedor: nathanraoliveira@gmail.com</p>
+</div>
+<hr/>
+<div class="postagem-lateral" style="border-bottom: none;">
+<p>Servidor Suporte: <a href="https://discord.gg/Q7mzrTX">GameCenter</a> </p>
+</div>
+</div>
+<div class="conteudo-lateral">
+<h3>Mais Informações</h3>
+<a href="https://discord.com/oauth2/authorize?client_id=717412674941616138&scope=bot&permissions=8
+"><img border="0" src="https://i.imgur.com/KZM5CMf.gif" alt="Adicione o GameCenter Helper" /></a>
+<a href="https://discord.gg/Q7mzrTX
+"><img border="0" src="https://i.imgur.com/DGzHkql.gif" alt="Entre no servidor" /></a>
+</div>
+</div>
+<div id="rodape">
+Criado Por Nathan
+</div>
+</div>
 </body>
-
 </html>
